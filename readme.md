@@ -3,7 +3,10 @@
 ## Descrição Completa
 Sistema completo para gestão de bibliotecas com controle de acervo, usuários, empréstimos e devoluções. Desenvolvido em C# para ambiente console, oferece funcionalidades robustas de CRUD (Create, Read, Update, Delete) para gerenciamento de livros e usuários, além de operações completas de empréstimo e devolução com cálculo automático de multas.
 
-![Imagem do sistema](https://img/image.png)
+<img>
+
+</img>
+
 
 ---
 
