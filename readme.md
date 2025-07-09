@@ -1,74 +1,117 @@
-﻿Sistema de Gestão de Biblioteca em C#
+<h1>﻿Sistema de Gestão de Biblioteca em C#</h1>
 
-Sistema completo para gestão de bibliotecas com controle de acervo, usuários, empréstimos e devoluções.
+<br/>
+
+<h2>
+  Sistema completo para gestão de bibliotecas com controle de acervo, usuários, empréstimos e devoluções.
+</h2>
+
+<br/>
+
 <div>
   <img src="img/image.png" width="600px"/>
 </div>
-Funcionalidades Implementadas
-📚 Cadastro de Livros
-Registro completo com título, autor, editora, ano, categoria e quantidade
 
-Validação de estoque durante empréstimos
+<br/>
 
-Controle automático de disponibilidade
+<h2>
+  Funcionalidades Implementadas
+</h2> 
 
-👥 Cadastro de Usuários
-Registro com nome, matrícula, e-mail e telefone
+<h3>
+  📚 Cadastro de Livros
+</h3>
 
-Telefone como string para formatos variados
+<h4>
+  Registro completo com;
+  <br/>título, 
+  <br/>autor, 
+  <br/>editora, 
+  <br/>ano, 
+  <br/>categoria, 
+  <br/>quantidade.
+</h4>
+<h4>
+  >Validação de estoque durante empréstimos
+</h4>
+<h4>
+  >Controle automático de disponibilidade
+</h4>
 
-Atualização de dados cadastrais
+<br/>
 
-🔁 Sistema de Empréstimos
-Associação entre livro e usuário
+<h3>
+  👥 Cadastro de Usuários
+</h3>
 
-Data automática de empréstimo
+<h4>
+  Registro com nome,<br/>
+  matrícula,<br/>
+  e-mail e telefone
+</h4>
+<h4>
+  >Telefone como string para formatos variados
+</h4>
+<h4>
+  >Atualização de dados cadastrais
+</h4>
 
-Devolução prevista em 14 dias
+<br/>
 
-Redução automática do estoque
+<h3>
+  🔁 Sistema de Empréstimos
+</h3>
+<h4>
+  Associação entre livro e usuário
+</h4>
+<h4>
+  >Data automática de empréstimo
+</h4>
+<h4>
+  >Devolução prevista em 14 dias
+</h4>
+<h4>
+  >Redução automática do estoque
+</h4>
+<br/>
+<h3>
+  🔄 Sistema de Devoluções
+</h3>
 
-🔄 Sistema de Devoluções
-Atualização automática do estoque
+<h4>
+  >Atualização automática do estoque
+</h4>
 
-Cálculo de multa diária (R$ 2,00/dia)
+<h4>
+  >Cálculo de multa diária (R$ 2,00/dia)
+</h4>
 
-Registro de data real de devolução
+<h4>
+  >Registro de data real de devolução
+</h4>
 
-Controle de empréstimos ativos
+<h4>
+  >Controle de empréstimos ativos
+</h4>
 
-📊 Relatórios
-Listagem completa de livros
+<br/>
 
-Listagem de todos os usuários
+<h3>
+  📊 Relatórios
+</h3>
 
-Visualização de empréstimos ativos
+<h4>
+  >Listagem completa de livros
+</h4>
 
-Detalhamento de histórico
+<h4>
+  >Listagem de todos os usuários
+</h4>
 
-Como Usar
-Cadastro inicial
+<h4>
+  >Visualização de empréstimos ativos
+</h4>
 
-Cadastre livros e usuários antes de operações
+>
 
-Fluxo de empréstimo
 
-Selecione livro e usuário
-
-Sistema controla estoque automaticamente
-
-Prazo de 14 dias para devolução
-
-Processo de devolução
-
-Selecione empréstimo ativo
-
-Multas calculadas automaticamente em caso de atraso
-
-Estoque atualizado instantaneamente
-
-Gerenciamento
-
-Atualize dados de livros e usuários
-
-Consulte relatórios completos
