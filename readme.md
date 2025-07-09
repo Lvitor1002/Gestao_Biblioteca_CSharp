@@ -1,117 +1,138 @@
-<h1>﻿Sistema de Gestão de Biblioteca em C#</h1>
+# Sistema de Gestão de Biblioteca em C#
 
-<br/>
+## Descrição Completa
+Sistema completo para gestão de bibliotecas com controle de acervo, usuários, empréstimos e devoluções. Desenvolvido em C# para ambiente console, oferece funcionalidades robustas de CRUD (Create, Read, Update, Delete) para gerenciamento de livros e usuários, além de operações completas de empréstimo e devolução com cálculo automático de multas.
 
-<h2>
-  Sistema completo para gestão de bibliotecas com controle de acervo, usuários, empréstimos e devoluções.
-</h2>
+![Imagem do sistema](https://img/image.png)
 
-<br/>
+---
 
-<div>
-  <img src="img/image.png" width="600px"/>
-</div>
+## Funcionalidades Implementadas
 
-<br/>
+### 📚 Gestão de Acervo
 
-<h2>
-  Funcionalidades Implementadas
-</h2> 
+#### Cadastro Completo de Livros
+- Título (validação de formato)  
+- Autor (validação de formato)  
+- Editora (validação de formato)  
+- Ano (validação 1700-2025)  
+- Categoria (classificação temática)  
+- Quantidade de exemplares (controle de estoque)  
 
-<h3>
-  📚 Cadastro de Livros
-</h3>
+#### Recursos Avançados
+- Atualização de informações dos livros  
+- Remoção segura (verificação de empréstimos ativos)  
+- Listagem completa do acervo  
+- Controle automático de disponibilidade  
 
-<h4>
-  Registro completo com;
-  <br/>título, 
-  <br/>autor, 
-  <br/>editora, 
-  <br/>ano, 
-  <br/>categoria, 
-  <br/>quantidade.
-</h4>
-<h4>
-  >Validação de estoque durante empréstimos
-</h4>
-<h4>
-  >Controle automático de disponibilidade
-</h4>
+---
 
-<br/>
+### 👥 Gestão de Usuários
 
-<h3>
-  👥 Cadastro de Usuários
-</h3>
+#### Cadastro Completo
+- Nome completo (validação de formato)  
+- Matrícula/Número de identificação  
+- E-mail (validação de formato)  
+- Telefone  
 
-<h4>
-  Registro com nome,<br/>
-  matrícula,<br/>
-  e-mail e telefone
-</h4>
-<h4>
-  >Telefone como string para formatos variados
-</h4>
-<h4>
-  >Atualização de dados cadastrais
-</h4>
+#### Recursos Avançados
+- Atualização de dados cadastrais  
+- Remoção segura (verificação de empréstimos ativos)  
+- Listagem completa de usuários  
+- Histórico de empréstimos associados  
 
-<br/>
+---
 
-<h3>
-  🔁 Sistema de Empréstimos
-</h3>
-<h4>
-  Associação entre livro e usuário
-</h4>
-<h4>
-  >Data automática de empréstimo
-</h4>
-<h4>
-  >Devolução prevista em 14 dias
-</h4>
-<h4>
-  >Redução automática do estoque
-</h4>
-<br/>
-<h3>
-  🔄 Sistema de Devoluções
-</h3>
+### 🔁 Sistema de Empréstimos
 
-<h4>
-  >Atualização automática do estoque
-</h4>
+#### Fluxo Completo
+- Associação entre livro e usuário  
+- Data automática de empréstimo (data atual)  
+- Devolução prevista em 14 dias  
+- Redução automática do estoque  
+- Validação de disponibilidade  
 
-<h4>
-  >Cálculo de multa diária (R$ 2,00/dia)
-</h4>
+#### Controle
+- Bloqueio de empréstimo sem exemplares disponíveis  
+- Registro completo das transações  
+- Listagem de empréstimos ativos  
 
-<h4>
-  >Registro de data real de devolução
-</h4>
+---
 
-<h4>
-  >Controle de empréstimos ativos
-</h4>
+### 🔄 Sistema de Devoluções
 
-<br/>
+#### Processo Automatizado
+- Atualização instantânea do estoque  
+- Cálculo de multa diária (R$ 2,00/dia)  
+- Registro de data real de devolução  
+- Marcação de empréstimo como finalizado  
 
-<h3>
-  📊 Relatórios
-</h3>
+#### Controle
+- Visualização de empréstimos pendentes  
+- Cálculo automático de atrasos  
+- Gestão de multas por atraso  
 
-<h4>
-  >Listagem completa de livros
-</h4>
+---
 
-<h4>
-  >Listagem de todos os usuários
-</h4>
+### 📊 Relatórios e Consultas
 
-<h4>
-  >Visualização de empréstimos ativos
-</h4>
+#### Visualizações Completas
+- Listagem detalhada de todos os livros  
+- Relatório completo de usuários cadastrados  
+- Painel de empréstimos ativos  
+- Histórico de transações  
 
->
+---
 
+## Como Executar o Projeto
 
+### Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/sistema-biblioteca-csharp.git
+```
+
+### Abra a solução no Visual Studio
+
+### Compile e execute o projeto
+
+### Utilize o menu interativo via console:
+```text
+==== SISTEMA DE GESTÃO DE BIBLIOTECA ====
+1. Cadastrar Livro
+2. Cadastrar Usuário
+3. Realizar Empréstimo
+4. Realizar Devolução
+5. Listar Livros
+6. Listar Usuários
+7. Listar Empréstimos Ativos
+8. Gerenciar Usuário
+9. Gerenciar Livro
+10. Sair
+```
+
+---
+
+## Estrutura do Código
+
+### Entidades Principais
+- **Livros**: Gerencia propriedades do acervo  
+- **Usuarios**: Administra dados dos usuários  
+- **Emprestimo**: Controla transações de empréstimo  
+
+### Serviços Especializados
+- **EmprestimoService**: Lógica de negócio para empréstimos  
+- **DevolucaoService**: Processamento de devoluções e multas  
+
+### Validações
+- `ValidarNome()`: Garante formatos corretos para textos  
+- `ValidarEmail()`: Verifica padrões de e-mail válidos  
+- `ValidarTelefone()`: Confirma números corretos  
+
+---
+
+## Melhorias Futuras
+- Persistência em banco de dados  
+- Sistema de autenticação de usuários  
+- Relatórios estatísticos  
+- Interface gráfica (GUI)  
+- Módulo de reservas antecipadas
