@@ -1,0 +1,28 @@
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\bin\Debug\TREINO.exe.config
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\bin\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\bin\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\obj\Debug\TREINO.csproj.AssemblyReference.cache
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\obj\Debug\TREINO.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\obj\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\c#\13 POO\14 POO Avançado\TREINO\obj\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\bin\Debug\TREINO.exe.config
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\bin\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\bin\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\obj\Debug\TREINO.csproj.AssemblyReference.cache
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\obj\Debug\TREINO.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\obj\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\c#\14 POO Avançado\TREINO\obj\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\bin\Debug\TREINO.exe.config
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\bin\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\bin\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\obj\Debug\TREINO.csproj.AssemblyReference.cache
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\obj\Debug\TREINO.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\obj\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\csharp\14 POO Avançado\TREINO\obj\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\bin\Debug\TREINO.exe.config
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\bin\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\bin\Debug\TREINO.pdb
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\obj\Debug\TREINO.csproj.AssemblyReference.cache
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\obj\Debug\TREINO.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\obj\Debug\TREINO.exe
+C:\Users\Luiz\Desktop\csharp\14 POO\TREINO\obj\Debug\TREINO.pdb
